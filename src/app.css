@@ -1,0 +1,13 @@
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* רווח בין ה- divים */
+  }
+  
+  .product-card {
+    border: 1px solid #ccc; /* גבול סביב כל מוצר */
+    padding: 10px; /* ריפוד פנימי */
+    width: 200px; /* רוחב קבוע לכל מוצר */
+    text-align: center; /* מרכז את הטקסט */
+  }
